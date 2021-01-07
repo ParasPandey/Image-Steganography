@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'McLaren', cursive;
+    font-size: 20px;
+    background: rgb(250, 249, 249);
+}
+.navv{
+    background: skyblue;
+    margin: .8rem 0px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.container{
+    margin-top: 1rem;
+}
+.container h1{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 3rem;
+}
+#textCanvas {
+    display:none;
+}
+.roww{
+    border: 2px solid black;
+}
+.roww h2{
+    text-align: center;
+    padding: .5rem;
+}
+.encode{
+    margin: 1rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#message{
+    width: 60vh;
+    text-align: center;
+}
+#imageLoader{
+    margin-bottom: 1rem;
+}
+#imageCanvas{
+    max-width: 400px;
+    max-height: 400px;
+}
+.enbtn{
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+.decode{
+    margin: 1rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
+    justify-content: center;
+    align-items: center;
+}
+#imageLoader2{
+    margin-bottom: 1rem;
+}
+#imageCanvas2{
+    max-width: 400px;
+    max-height: 400px;
+    font-size: 2rem;
+}
